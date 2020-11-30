@@ -1,0 +1,21 @@
+{
+  "name": "legato-node",
+  "version": "1.0.0",
+  "description": "chorus legato server implemented in nodejs ",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc --skipLibCheck && node dist/index.js"
+  },
+  "keywords": [
+    "OData",
+    "CDS",
+    "legato"
+  ],
+  "author": "Motti Bechhofer",
+  "license": "MIT",
+  "dependencies": {
+    "odata-v4-parser": "^0.1.29",
+    "odata-v4-server": "^0.2.13"
+  }
+}
