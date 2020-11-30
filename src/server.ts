@@ -3,5 +3,4 @@ import { LegatoController } from "./legatoController";
 
 @odata.controller(LegatoController, true)
 export class LegatoODataServer extends ODataServer {
-
 }
